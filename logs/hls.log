@@ -1,0 +1,64 @@
+2026-07-08 02:40:29,830 - INFO - ========== HLS Automation Started ==========
+2026-07-08 02:40:29,830 - INFO - Input video found: input/sample.mp4
+2026-07-08 02:40:29,830 - INFO - Output directory verified
+2026-07-08 02:40:29,830 - INFO - Setup completed successfully
+2026-07-08 03:06:55,409 - INFO - ========== HLS Automation Started ==========
+2026-07-08 03:06:55,410 - INFO - Input video found: input/sample.mp4
+2026-07-08 03:06:55,410 - INFO - Output directory verified
+2026-07-08 03:06:55,410 - INFO - Setup completed successfully
+2026-07-08 03:06:55,410 - INFO - Creating tmux session: hls_session
+2026-07-08 03:06:55,441 - INFO - tmux session created successfully
+2026-07-08 03:15:38,882 - INFO - ========== HLS Automation Started ==========
+2026-07-08 03:15:38,883 - INFO - Input video found: input/sample.mp4
+2026-07-08 03:15:38,883 - INFO - Output directory verified
+2026-07-08 03:15:38,883 - INFO - Setup completed successfully
+2026-07-08 03:15:38,883 - INFO - Creating tmux session: hls_session
+2026-07-08 03:15:38,893 - INFO - tmux session created successfully
+2026-07-08 03:15:38,893 - INFO - Starting FFmpeg inside tmux
+2026-07-08 03:15:38,896 - INFO - FFmpeg command sent to tmux
+2026-07-08 03:21:29,762 - INFO - ========== HLS Automation Started ==========
+2026-07-08 03:21:29,762 - INFO - Input video found: input/sample.mp4
+2026-07-08 03:21:29,762 - INFO - Output directory verified
+2026-07-08 03:21:29,762 - INFO - Setup completed successfully
+2026-07-08 03:21:29,762 - INFO - Creating tmux session: hls_session
+2026-07-08 03:21:29,774 - INFO - tmux session created successfully
+2026-07-08 03:21:29,774 - INFO - Starting FFmpeg inside tmux
+2026-07-08 03:21:29,777 - INFO - FFmpeg command sent to tmux
+2026-07-08 03:21:34,777 - INFO - Checking generated TS files
+2026-07-08 03:21:34,778 - INFO - Generated TS files:
+2026-07-08 03:21:34,786 - INFO - 0.ts
+2026-07-08 03:21:34,786 - INFO - 1.ts
+2026-07-08 03:21:34,786 - INFO - HLS conversion completed successfully
+2026-07-15 08:42:52,247 - INFO - ========== HLS Automation Started ==========
+2026-07-15 08:42:52,248 - INFO - Input video found: input/sample.mp4
+2026-07-15 08:42:52,248 - INFO - Output directory verified
+2026-07-15 08:42:52,248 - INFO - Setup completed successfully
+2026-07-15 08:42:52,248 - INFO - Creating tmux session: hls_session
+2026-07-15 08:42:52,280 - INFO - tmux session created successfully
+2026-07-15 08:42:52,280 - INFO - Starting FFmpeg inside tmux
+2026-07-15 08:42:52,282 - INFO - FFmpeg command sent to tmux
+2026-07-15 08:42:57,276 - INFO - Checking generated TS files
+2026-07-15 08:42:57,277 - INFO - Generated TS files:
+2026-07-15 08:42:57,277 - INFO - 0.ts
+2026-07-15 08:42:57,277 - INFO - 1.ts
+2026-07-15 08:42:57,277 - INFO - HLS conversion completed successfully
+2026-07-15 08:56:21,476 - INFO - ============================================================
+2026-07-15 08:56:21,477 - INFO - HLS Automation Started
+2026-07-15 08:56:21,478 - INFO - Process Start Time : 2026-07-15 08:56:21.476774
+2026-07-15 08:56:21,478 - INFO - Input File : input/sample.mp4
+2026-07-15 08:56:21,478 - INFO - Input File Size : 8405262 bytes
+2026-07-15 08:56:21,478 - INFO - Output directory verified
+2026-07-15 08:56:21,485 - INFO - Creating tmux session : hls_session
+2026-07-15 08:56:21,521 - INFO - tmux session created successfully
+2026-07-15 08:56:21,521 - INFO - FFmpeg Command:
+2026-07-15 08:56:21,521 - INFO - ffmpeg -y -i input/sample.mp4 -c:v libx264 -c:a aac -hls_time 6 -hls_playlist_type vod -hls_segment_filename output/%d.ts output/master.m3u8
+2026-07-15 08:56:21,521 - INFO - Starting FFmpeg inside tmux
+2026-07-15 08:56:21,523 - INFO - FFmpeg command sent successfully
+2026-07-15 08:56:26,523 - INFO - Checking generated TS files
+2026-07-15 08:56:26,524 - INFO - Generated TS Files:
+2026-07-15 08:56:26,524 - INFO - 0.ts
+2026-07-15 08:56:26,524 - INFO - 1.ts
+2026-07-15 08:56:26,524 - INFO - Status : SUCCESS
+2026-07-15 08:56:26,524 - INFO - Output Location : /home/vikash/mp4-to-hls/output
+2026-07-15 08:56:26,524 - INFO - Process End Time : 2026-07-15 08:56:26.524693
+2026-07-15 08:56:26,524 - INFO - ============================================================

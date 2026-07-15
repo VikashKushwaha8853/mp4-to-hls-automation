@@ -1,5 +1,6 @@
 input/
 output/
-logs/
+logs/*
+!logs/hls.log
 __pycache__/
 *.pyc
